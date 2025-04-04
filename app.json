@@ -1,69 +1,50 @@
 {
   "expo": {
-    "name": "1日1回の無料占いアプリ",
+    "name": "lucky-day-v2",
     "slug": "lucky-day-v2",
-    "version": "1.0.1",
+    "owner": "kounkt",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "splash": {
-      "image": "./assets/images/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#2d2157"
-    },
-    "web": {
-      "favicon": "./assets/images/favicon.png",
-      "bundler": "metro",
-      "output": "static",
-      "meta": {
-        "title": "【1日1回】今日の天体運勢",
-        "description": "星の導きで今日の運勢を占います。恋愛運、仕事運、金運の中から選んで、あなただけの天体からのメッセージを受け取りましょう。",
-        "og:type": "website",
-        "og:title": "【1日1回】今日の天体運勢",
-        "og:description": "星の導きで今日の運勢を占います。恋愛運、仕事運、金運の中から選んで、あなただけの天体からのメッセージを受け取りましょう。",
-        "og:image": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=1200&auto=format&fit=crop"
-      }
-    },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "app.rork.luckydayv2",
-      "buildNumber": "1.0.1",
-      "infoPlist": {
-        "NSPhotoLibraryUsageDescription": "この機能を使用すると、プロフィール画像を選択したり、運勢の結果を保存したりできます。",
-        "NSPhotoLibraryAddUsageDescription": "この機能を使用すると、運勢の結果をフォトライブラリに保存できます。",
-        "NSCameraUsageDescription": "この機能を使用すると、プロフィール画像を撮影できます。",
-        "UIBackgroundModes": [
-          "fetch"
-        ]
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#2d2157"
-      },
-      "package": "com.astralfortune.app",
-      "versionCode": 2,
-      "permissions": [
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
-      ]
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",
       [
-        "expo-image-picker",
+        "expo-splash-screen",
         {
-          "photosPermission": "アプリがあなたの写真にアクセスすることを許可します。",
-          "cameraPermission": "アプリがカメラを使用することを許可します。"
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "79326b6a-cbd4-4148-a30a-c443221dc560"
+      }
     }
   }
 }
