@@ -1,4 +1,4 @@
-package com.astralfortune.app
+package app.kounkt.luckydayv2
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

@@ -21,7 +21,7 @@ extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
   }
 }
 
-rootProject.name = '1日1回の無料占いアプリ'
+rootProject.name = 'lucky-day-v2'
 
 dependencyResolutionManagement {
   versionCatalogs {

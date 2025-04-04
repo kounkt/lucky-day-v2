@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "11.app"
-               BlueprintName = "11"
-               ReferencedContainer = "container:11.xcodeproj">
+               BuildableName = "luckydayv2.app"
+               BlueprintName = "luckydayv2"
+               ReferencedContainer = "container:luckydayv2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "11Tests.xctest"
-               BlueprintName = "11Tests"
-               ReferencedContainer = "container:11.xcodeproj">
+               BuildableName = "luckydayv2Tests.xctest"
+               BlueprintName = "luckydayv2Tests"
+               ReferencedContainer = "container:luckydayv2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "11.app"
-            BlueprintName = "11"
-            ReferencedContainer = "container:11.xcodeproj">
+            BuildableName = "luckydayv2.app"
+            BlueprintName = "luckydayv2"
+            ReferencedContainer = "container:luckydayv2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "11.app"
-            BlueprintName = "11"
-            ReferencedContainer = "container:11.xcodeproj">
+            BuildableName = "luckydayv2.app"
+            BlueprintName = "luckydayv2"
+            ReferencedContainer = "container:luckydayv2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
